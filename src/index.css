@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #121214;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy"),
+   url("./fonts/Gilroy/Gilroy-ExtraBold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+p, .form-control, .form-label, .form-select, .nav-brand, .btn {
+  font-family: Gilroy;
+}
