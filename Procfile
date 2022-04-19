@@ -1,1 +1,1 @@
-web: yarn preview
+web: yarn && yarn preview
